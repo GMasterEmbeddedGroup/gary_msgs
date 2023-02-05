@@ -25,6 +25,30 @@ find_package(rosidl_default_generators REQUIRED)
 
 set(msg_files
         msg/DR16Receiver.msg
+        msg/GameStatus.msg
+        msg/GameResult.msg
+        msg/RobotHP.msg
+        msg/ICRABuffDebuffZoneAndLurkStatus.msg
+        msg/FieldEvents.msg
+        msg/SupplyProjectileAction.msg
+        msg/SupplyProjectileRequest.msg
+        msg/RefereeWarning.msg
+        msg/DartRemainingTime.msg
+        msg/RobotStatus.msg
+        msg/PowerHeat.msg
+        msg/RobotPosition.msg
+        msg/RobotBuff.msg
+        msg/AerialRobotEnergy.msg
+        msg/RobotHurt.msg
+        msg/ShootData.msg
+        msg/BulletRemaining.msg
+        msg/RFIDStatus.msg
+        msg/DartClientCmd.msg
+        msg/InteractiveData.msg
+        msg/CustomController.msg
+        msg/ClientCommand.msg
+        msg/ClientReceive.msg
+        msg/ImageTransmitter.msg
         )
 
 if(BUILD_TESTING)

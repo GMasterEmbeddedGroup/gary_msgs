@@ -50,6 +50,7 @@ set(msg_files
         msg/ClientReceive.msg
         msg/ImageTransmitter.msg
         msg/AutoAIM.msg
+        msg/PID.msg
         )
 
 if(BUILD_TESTING)

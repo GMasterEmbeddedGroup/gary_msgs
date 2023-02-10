@@ -31,6 +31,7 @@ gary_msgs包是gary_ros2定义的一组msg, service和action. 所有节点间通
 * msg/ClientReceive.msg: 客户端小地图接收信息
 * msg/ImageTransmitter.msg: 键盘, 鼠标信息, 通过图传串口发送
 * msg/AutoAIM.msg: 视觉自瞄指令
+* msg/PID.msg: PID控制器状态数据
 
 ## Services
 

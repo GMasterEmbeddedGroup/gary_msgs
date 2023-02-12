@@ -35,7 +35,7 @@ gary_msgs包是gary_ros2定义的一组msg, service和action. 所有节点间通
 
 ## Services
 
-TBD
+* srv/VisionModeSwitch.srv: 视觉模式切换
 
 ## Action
 

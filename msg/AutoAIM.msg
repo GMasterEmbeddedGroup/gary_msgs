@@ -16,3 +16,11 @@ uint8 TARGET_ID4_INFANTRY                   = 4
 uint8 TARGET_ID5_INFANTRY                   = 5
 uint8 TARGET_ID6_OUTPOST                    = 6
 uint8 TARGET_ID7_SENTRY                     = 7
+
+# auto aiming mode, see enum below
+uint8 vision_mode
+
+uint8 VISION_MODE_ARMOR                     = 1
+uint8 VISION_MODE_SMALL                     = 2
+uint8 VISION_MODE_BIG                       = 3
+uint8 VISION_MODE_TAG                       = 4

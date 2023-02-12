@@ -53,6 +53,10 @@ set(msg_files
         msg/PID.msg
         )
 
+set(srv_files
+        srv/VisionModeSwitch.srv
+        )
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
@@ -67,6 +71,7 @@ endif()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
         ${msg_files}
+        ${srv_files}
         DEPENDENCIES
         std_msgs
         )

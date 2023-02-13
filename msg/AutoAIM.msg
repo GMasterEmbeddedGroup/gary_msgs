@@ -17,6 +17,9 @@ uint8 TARGET_ID5_INFANTRY                   = 5
 uint8 TARGET_ID6_OUTPOST                    = 6
 uint8 TARGET_ID7_SENTRY                     = 7
 
+# auto aiming target distance
+float32 target_distance
+
 # auto aiming mode, see enum below
 uint8 vision_mode
 

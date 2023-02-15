@@ -5,25 +5,24 @@ std_msgs/Header header
 # robot id, see enum below
 uint8 robot_id
 
-uint8 ROBOT_ID_NONE             = 0
-uint8 ROBOT_ID_RED1             = 1
-uint8 ROBOT_ID_RED2             = 2
-uint8 ROBOT_ID_RED3             = 3
-uint8 ROBOT_ID_RED4             = 4
-uint8 ROBOT_ID_RED5             = 5
-uint8 ROBOT_ID_RED6             = 6
-uint8 ROBOT_ID_RED7             = 7
-uint8 ROBOT_ID_RED8             = 8
-uint8 ROBOT_ID_RED9             = 9
-uint8 ROBOT_ID_BLUE1            = 101
-uint8 ROBOT_ID_BLUE2            = 102
-uint8 ROBOT_ID_BLUE3            = 103
-uint8 ROBOT_ID_BLUE4            = 104
-uint8 ROBOT_ID_BLUE5            = 105
-uint8 ROBOT_ID_BLUE6            = 106
-uint8 ROBOT_ID_BLUE7            = 107
-uint8 ROBOT_ID_BLUE8            = 108
-uint8 ROBOT_ID_BLUE9            = 109
+uint8 ROBOT_ID_RED1_HERO        = 1
+uint8 ROBOT_ID_RED2_ENGINEER    = 2
+uint8 ROBOT_ID_RED3_INFANTRY    = 3
+uint8 ROBOT_ID_RED4_INFANTRY    = 4
+uint8 ROBOT_ID_RED5_INFANTRY    = 5
+uint8 ROBOT_ID_RED6_AERIAL      = 6
+uint8 ROBOT_ID_RED7_SENTRY      = 7
+uint8 ROBOT_ID_RED8_DART        = 8
+uint8 ROBOT_ID_RED9_RADAR       = 9
+uint8 ROBOT_ID_BLUE1_HERO       = 101
+uint8 ROBOT_ID_BLUE2_ENGINEER   = 102
+uint8 ROBOT_ID_BLUE3_INFANTRY   = 103
+uint8 ROBOT_ID_BLUE4_INFANTRY   = 104
+uint8 ROBOT_ID_BLUE5_INFANTRY   = 105
+uint8 ROBOT_ID_BLUE6_AERIAL     = 106
+uint8 ROBOT_ID_BLUE7_SENTRY     = 107
+uint8 ROBOT_ID_BLUE8_DART       = 108
+uint8 ROBOT_ID_BLUE9_RADAR      = 109
 
 # robot level
 uint8 robot_level

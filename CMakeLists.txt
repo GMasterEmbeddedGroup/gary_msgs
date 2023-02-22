@@ -51,6 +51,9 @@ set(msg_files
         msg/ImageTransmitter.msg
         msg/AutoAIM.msg
         msg/PID.msg
+        msg/PIDwithFilter.msg
+        msg/DualLoopPID.msg
+        msg/DualLoopPIDwithFilter.msg
         )
 
 set(srv_files

@@ -25,7 +25,8 @@ gary_msgs包是gary_ros2定义的一组msg, service和action. 所有节点间通
 * msg/BulletRemaining.msg: 子弹剩余发送数, 空中机器人以及哨兵机器人发送, 10Hz周期发送
 * msg/RFIDStatus.msg: 机器人RFID状态, 3Hz周期发送
 * msg/DartClientCmd.msg: 飞镖机器人客户端指令, 10Hz周期发送
-* msg/InteractiveData.msg: 机器人间交互数据, 发送方触发发送, 上限10Hz
+* msg/InteractiveDataRecv.msg: 机器人间交互数据, 上限10Hz
+* msg/InteractiveDataSend.msg: 机器人间交互数据发送方触发发送, 上限10Hz
 * msg/CustomController.msg: 自定义控制器交互数据接口, 通过客户端触发发送, 上限30Hz
 * msg/ClientCommand.msg: 客户端小地图交互数据, 触发发送
 * msg/ClientReceive.msg: 客户端小地图接收信息

@@ -44,7 +44,8 @@ set(msg_files
         msg/BulletRemaining.msg
         msg/RFIDStatus.msg
         msg/DartClientCmd.msg
-        msg/InteractiveData.msg
+        msg/InteractiveDataRecv.msg
+        msg/InteractiveDataSend.msg
         msg/CustomController.msg
         msg/ClientCommand.msg
         msg/ClientReceive.msg

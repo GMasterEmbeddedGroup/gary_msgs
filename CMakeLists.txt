@@ -59,6 +59,7 @@ set(msg_files
 
 set(srv_files
         srv/VisionModeSwitch.srv
+        srv/ResetMotorPosition.srv
         )
 
 if(BUILD_TESTING)

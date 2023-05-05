@@ -50,8 +50,5 @@ uint16 CLIENT_ID_BLUE4_INFANTRY                 = 360    #0x168
 uint16 CLIENT_ID_BLUE5_INFANTRY                 = 361    #0x169
 uint16 CLIENT_ID_BLUE6_AERIAL                   = 362    #0x16A
 
-# data length
-uint8 data_length
-
 # payload
 uint8[] data

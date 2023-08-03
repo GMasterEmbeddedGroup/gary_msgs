@@ -27,6 +27,7 @@ set(msg_files
         msg/DR16Receiver.msg
         msg/GameStatus.msg
         msg/GameResult.msg
+        msg/GroundRobotPosition.msg
         msg/RobotHP.msg
         msg/ICRABuffDebuffZoneAndLurkStatus.msg
         msg/FieldEvents.msg

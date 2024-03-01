@@ -56,6 +56,11 @@ set(msg_files
         msg/PIDWithFilter.msg
         msg/DualLoopPID.msg
         msg/DualLoopPIDWithFilter.msg
+        msg/InteractionFigure.msg
+        msg/InteractionFigurePlus.msg
+        msg/ExtClientCustomCharacter.msg
+        msg/RadarCMD.msg
+        msg/SentryCMD.msg
         )
 
 set(srv_files
